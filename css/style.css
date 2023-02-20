@@ -63,3 +63,8 @@
 .singlecours img {
     width: 100%;
 }
+
+.recentcoursesbutton {
+    display: flex;
+    justify-content: center;
+}
