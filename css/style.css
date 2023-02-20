@@ -6,3 +6,19 @@
     padding: 10px;
     border-bottom: 1px solid rgb(197, 195, 195);
 }
+
+.secondnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.inputbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
