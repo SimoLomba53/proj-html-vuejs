@@ -22,3 +22,24 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.hovcard img {
+    width: 100%;
+}
+
+#softwareimg {
+    width: 1025px
+}
+
+.littleimg {
+    width: 500px;
+    margin-left: -30px
+}
+
+.right {
+    margin-bottom: 20px
+}
+
+.rightfinal {
+    margin-top: -20px
+}
