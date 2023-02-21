@@ -142,9 +142,19 @@
 .recentcoursesbutton {
     display: flex;
     justify-content: center;
+}
 
+.showcoursesbutton {
+    display: flex;
+    justify-content: center;
+}
 
-
+.showbutton {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: transparent;
 }
 
 .recentcoursesbutton button {
@@ -159,6 +169,15 @@
     padding: 4rem;
     justify-content: center;
 
+}
+
+.state {
+    padding: 10px;
+    width: 75px;
+    position: relative;
+    bottom: 320px;
+    left: 270px;
+    text-align: center;
 }
 
 .textwecertificate {
