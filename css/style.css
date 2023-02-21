@@ -16,6 +16,13 @@
 
 }
 
+.signup {
+    border: transparent;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
+
 .startinvesting {
     display: flex;
     flex-direction: column;
@@ -118,13 +125,15 @@
 .recentcoursesbutton {
     display: flex;
     justify-content: center;
+    background-color: blue;
+
 
 }
 
 .recentcoursesbutton button {
-    color: white;
-    background-color: blue;
-    border-radius: 20px;
+    color: silver;
+    background-color: white;
+
     border: transparent;
     padding: 10px;
 }
