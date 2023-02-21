@@ -16,6 +16,13 @@
 
 }
 
+.inputbar {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 .signup {
     border: transparent;
     color: white;
