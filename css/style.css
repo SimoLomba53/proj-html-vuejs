@@ -16,6 +16,29 @@
 
 }
 
+.startinvesting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.startinvesting h1 {
+    font-size: 50px;
+}
+
+.startinvesting p {
+    font-size: 30px
+}
+
+.joinfree {
+    width: 120px;
+    font-size: 15px;
+    border: transparent;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
+
 .inputbar {
     display: flex;
     flex-direction: row;
@@ -56,8 +79,31 @@
     height: 600px;
 }
 
+.limitext h1 {
+    font-size: 100px
+}
+
+.limitext p {
+    font-size: 20px;
+}
+
 .limitext button {
-    width: 100px;
+    width: 130px;
+    color: white;
+    border: transparent;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#allcategories {
+    color: grey;
+    border: 1px solid transparent;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.categories {
+    color: blue;
 }
 
 .singlecours img {
@@ -67,6 +113,15 @@
 .recentcoursesbutton {
     display: flex;
     justify-content: center;
+
+}
+
+.recentcoursesbutton button {
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    border: transparent;
+    padding: 10px;
 }
 
 .course {
