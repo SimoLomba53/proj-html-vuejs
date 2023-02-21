@@ -30,6 +30,10 @@
     border-radius: 10px;
 }
 
+.signup:hover {
+    opacity: 0.5;
+}
+
 .startinvesting {
     display: flex;
     flex-direction: column;
@@ -197,6 +201,20 @@
     background-color: aliceblue;
 }
 
+.arrowfullbutton {
+    display: flex;
+    justify-content: center;
+}
+
+.arrowbutton {
+    border: 1px solid silver;
+    padding: 10px;
+}
+
+.arrowbutton:hover {
+    background-color: rgb(116, 116, 255);
+}
+
 .businessicon {
     padding: 5rem;
 }
@@ -212,6 +230,10 @@
     padding: 10px;
     border-radius: 20px;
     border: transparent;
+}
+
+.teachingbutton:hover {
+    background-color: aquamarine;
 }
 
 .comeasyouare {
