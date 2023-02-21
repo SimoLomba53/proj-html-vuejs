@@ -113,3 +113,14 @@
     border: 1px solid silver;
 
 }
+
+.comeasyouare {
+    background-image: url(/img/brooke-cagle-224821-unsplash-1-1920x700.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.textcomeasblock {
+    background-color: white;
+}
