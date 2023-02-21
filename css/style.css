@@ -68,3 +68,30 @@
     display: flex;
     justify-content: center;
 }
+
+.course {
+    padding: 4rem;
+    justify-content: center;
+}
+
+.textwecertificate {
+    height: 550px;
+    background-color: aliceblue;
+}
+
+.weproudimg {
+    background-image: url(/img/we_proud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aliceblue;
+    height: 550px;
+}
+
+.datecount {
+    margin: auto;
+    text-align: center;
+}
+
+.greyborder {
+    border-right: 1px solid silver;
+}
