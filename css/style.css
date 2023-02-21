@@ -125,7 +125,7 @@
 .recentcoursesbutton {
     display: flex;
     justify-content: center;
-    background-color: blue;
+
 
 
 }
@@ -147,6 +147,15 @@
 .textwecertificate {
     height: 550px;
     background-color: aliceblue;
+}
+
+.textwecertificate h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.textwecertificate p {
+    font-size: 30px;
 }
 
 .weproudimg {
@@ -184,6 +193,14 @@
 
 }
 
+.teachingbutton {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+    border: transparent;
+}
+
 .comeasyouare {
     background-image: url(/img/brooke-cagle-224821-unsplash-1-1920x700.jpg);
     background-repeat: no-repeat;
@@ -193,6 +210,18 @@
 
 .textcomeasblock {
     background-color: white;
+}
+
+.textcomeasblock h2 {
+    font-size: 50px;
+}
+
+.textcomeasblock p {
+    font-size: 25px;
+}
+
+.textcomeasblock span {
+    font-size: 15px;
 }
 
 .pricesec {
