@@ -185,3 +185,8 @@
 .textcomeasblock {
     background-color: white;
 }
+
+.pricesec {
+    border-top: 1px solid silver;
+    padding: 10px;
+}
