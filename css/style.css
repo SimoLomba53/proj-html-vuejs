@@ -27,7 +27,7 @@
     border: transparent;
     color: white;
     background-color: blue;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .signup:hover {
@@ -54,7 +54,17 @@
     border: transparent;
     color: white;
     background-color: blue;
-    border-radius: 10px;
+    border-radius: 20px;
+}
+
+.siximgtext {
+    width: 95%;
+}
+
+.textfirstlitimg {
+    width: 95%;
+    position: relative;
+    bottom: 40px;
 }
 
 .inputbar {
