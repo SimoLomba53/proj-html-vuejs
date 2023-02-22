@@ -34,12 +34,6 @@
                 <div v-for="plan in headerelement" class="d-flex flex-row gap-1">
                     <span>{{ plan.plan }}</span>
                 </div>
-                <!--<span>Zoom</span>
-                <span>Pages</span>
-                <span>Bundles</span>
-                <span>Course Formats</span>
-                <span>Add Course</span>
-                <span>Demos</span>-->
                 <div class="d-flex flex-row gap-2">
                     <span><i class="fa-brands fa-twitter"></i></span>
                     <span><i class="fa-brands fa-instagram"></i></span>
@@ -57,7 +51,9 @@
         <div class="conteiner-fluid secondnav">
             <div><img src="/img/MasterStudy_logo.svg" alt=""></div>
             <div class="inputbar">
-                <span>CATEGORY</span>
+
+                <span><i class="fa-solid fa-bars"></i>CATEGORY</span>
+
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Recipient's username"
                         aria-label="Recipient's username" aria-describedby="button-addon2">
@@ -179,7 +175,7 @@
                         <p>Web Coding and Apache Basics</p>
                         <div class="pricesec d-flex justify-content-between">
                             <span>6 hours</span>
-                            <span class="free">Free</span>
+                            <b class="free">Free</b>
                         </div>
                     </div>
                     <div class="col-2 singlecours">
@@ -188,9 +184,12 @@
                         <p>Real things Art Painting By Jason Ni</p>
                         <div class="pricesec d-flex justify-content-between">
                             <span>6 hours</span>
-                            <span class="free">Free</span>
+                            <div class="d-flex flex-column align-items-center">
+                                <s>$60</s>
+                                <b class="free">$45</b>
+                            </div>
                         </div>
-                        <div class="state bg-success text-white">NEW</div>
+                        <div class="stateprice bg-success text-white">NEW</div>
                     </div>
                     <div class="col-2 singlecours">
                         <img src="/img/course-preview-272x161.jpg" alt="">
@@ -202,7 +201,7 @@
                                         src="/img/starfull.svg" alt=""><img src="/img/starfull.svg" alt=""><img
                                         src="/img/starfull.svg" alt=""><img src="/img/starfull.svg" alt="">5</div>
                             </span>
-                            <span class="free">Free</span>
+                            <b class="free">Free</b>
                         </div>
                         <div class="state bg-danger text-white">HOT</div>
                     </div>
@@ -216,9 +215,12 @@
                                         src="/img/starfull.svg" alt=""><img src="/img/starfull.svg" alt=""><img
                                         src="/img/starfull.svg" alt=""><img src="/img/starfull.svg" alt="">5</div>
                             </span>
-                            <span class="free">Free</span>
+                            <div class="d-flex flex-column align-items-center">
+                                <s>$59</s>
+                                <b class="free">$49</b>
+                            </div>
                         </div>
-                        <div class="state bg-warning text-white">SPECIAL</div>
+                        <div class="stateprice bg-warning text-white">SPECIAL</div>
                     </div>
                     <div class="col-2 singlecours">
                         <img src="/img/photo-1416339134316-0e91dc9ded92-scaled-272x161.jpeg" alt="">
@@ -226,7 +228,7 @@
                         <p>Design Instruments for Communication</p>
                         <div class="pricesec d-flex justify-content-between">
                             <span>6 hours</span>
-                            <span class="free">Free</span>
+                            <b class="free">Free</b>
                         </div>
                     </div>
                     <div class="col-2 singlecours">
@@ -235,7 +237,7 @@
                         <p>Make your Concept Right and Beautiful</p>
                         <div class="pricesec d-flex justify-content-between">
                             <span>6 hours</span>
-                            <span class="free">Free</span>
+                            <b class="free">$70</b>
                         </div>
                     </div>
                     <!--SECOND COURSE PHOTO SECTION-->
@@ -247,7 +249,7 @@
                         <p>Road Bike Manual or How to Be a Champion</p>
                         <div class="pricesec d-flex justify-content-between">
                             <span>6 hours</span>
-                            <span class="free">Free</span>
+                            <b class="free">$20</b>
                         </div>
                     </div>
                     <div class="col-2 singlecours">
@@ -256,7 +258,7 @@
                         <p>How to Make Beautiful Landscape photos?</p>
                         <div class="pricesec d-flex justify-content-between">
                             <span>6 hours</span>
-                            <span class="free">Free</span>
+                            <b class="free">$60</b>
                         </div>
                     </div>
                     <div class="col-2 singlecours">
@@ -265,7 +267,7 @@
                         <p>Let's paint Van Gogh's Starry Night</p>
                         <div class="pricesec d-flex justify-content-between">
                             <span>6 hours</span>
-                            <span class="free">Free</span>
+                            <b class="free">$79</b>
                         </div>
                     </div>
                     <div class="col-2 singlecours">
@@ -278,7 +280,7 @@
                                         src="/img/starfull.svg" alt=""><img src="/img/starfull.svg" alt=""><img
                                         src="/img/starfull.svg" alt=""><img src="/img/starfull.svg" alt="">5</div>
                             </span>
-                            <span class="free">Free</span>
+                            <b class="free">Free</b>
                         </div>
                         <div class="state bg-warning text-white">SPECIAL</div>
                     </div>
@@ -288,7 +290,7 @@
                         <p>How to work with a olegendary RED camera?</p>
                         <div class="pricesec d-flex justify-content-between">
                             <span>6 hours</span>
-                            <span class="free">Free</span>
+                            <b class="free">Free</b>
                         </div>
                         <div class="state bg-warning text-white">SPECIAL</div>
                     </div>
@@ -298,7 +300,7 @@
                         <p>MasterStudy Mobile LMS App</p>
                         <div class="pricesec d-flex justify-content-between">
                             <span>6 hours</span>
-                            <span class="free">Free</span>
+                            <b class="free">Free</b>
                         </div>
                     </div>
 
@@ -373,7 +375,7 @@
                         <p>Web Coding and Apache Basics</p>
                         <div class="pricesec d-flex justify-content-between">
                             <span>6 hours</span>
-                            <span class="free">Free</span>
+                            <b class="free">Free</b>
                         </div>
                     </div>
                     <div class="col-2 singlecours">
@@ -382,7 +384,7 @@
                         <p>Real Things Art Painting By Jason Ni</p>
                         <div class="pricesec d-flex justify-content-between">
                             <span>6 Hours</span>
-                            <span class="free">Free</span>
+                            <b class="free">Free</b>
                         </div>
                         <div class="state bg-success text-white">NEW</div>
                     </div>
@@ -396,7 +398,7 @@
                                         src="/img/starfull.svg" alt=""><img src="/img/starfull.svg" alt=""><img
                                         src="/img/starfull.svg" alt=""><img src="/img/starfull.svg" alt="">5</div>
                             </span>
-                            <span class="free">Free</span>
+                            <b class="free">Free</b>
                         </div>
                         <div class="state bg-danger text-white">HOT</div>
                     </div>
@@ -410,9 +412,12 @@
                                         src="/img/starfull.svg" alt=""><img src="/img/starfull.svg" alt=""><img
                                         src="/img/starfull.svg" alt=""><img src="/img/starfull.svg" alt="">5</div>
                             </span>
-                            <span class="free">Free</span>
+                            <div class="d-flex flex-column align-items-center">
+                                <s>$59</s>
+                                <b class="free">$49</b>
+                            </div>
                         </div>
-                        <div class="state bg-warning text-white">SPECIAL</div>
+                        <div class="stateprice bg-warning text-white">SPECIAL</div>
                     </div>
                     <div class="col-2 singlecours">
                         <img src="/img/photo-1416339134316-0e91dc9ded92-scaled-272x161.jpeg" alt="">
@@ -420,7 +425,6 @@
                         <p>Design Instruments for Communication</p>
                         <div class="pricesec d-flex justify-content-between">
                             <span>6 hours</span>
-                            <span class="free">Free</span>
                         </div>
                     </div>
                     <div class="col-2 singlecours">
@@ -429,7 +433,7 @@
                         <p>Make your Concept Rights and Beautiful</p>
                         <div class="pricesec d-flex justify-content-between">
                             <span>6 hours</span>
-                            <span class="free">Free</span>
+                            <b class="free">$70</b>
                         </div>
                     </div>
                 </div>

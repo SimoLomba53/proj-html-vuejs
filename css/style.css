@@ -180,6 +180,15 @@
     text-align: center;
 }
 
+.stateprice {
+    padding: 10px;
+    width: 75px;
+    position: relative;
+    bottom: 345px;
+    left: 270px;
+    text-align: center;
+}
+
 .textwecertificate {
     height: 550px;
     background-color: aliceblue;
