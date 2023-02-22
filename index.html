@@ -49,7 +49,7 @@
             </div>
             <div class="d-flex flex-row gap-3">
                 <div v-for="plan in headerelement" class="d-flex flex-row gap-1">
-                    <span>{{ plan.plan }}</span>
+                    <a class="text-dark text-decoration-none" href="">{{ plan.plan }}</a>
                 </div>
                 <div class="d-flex flex-row gap-2">
                     <span><i class="fa-brands fa-twitter"></i></span>
@@ -562,7 +562,7 @@
                     <div class="col-12 d-flex flex-row">
                         <div class="col-6">
                             <ul v-for="item in footerpagessection">
-                                <li>{{ item.item }}</li>
+                                <li><a class="text-dark text-decoration-none" href="">{{ item.item }}</a></li>
                             </ul>
                         </div>
                     </div>
