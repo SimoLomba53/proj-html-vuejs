@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat';
+}
+
 .firstnav {
     display: flex;
     flex-direction: row;
@@ -15,7 +19,7 @@
     justify-content: center;
     position: relative;
     bottom: 45px;
-    left: 1730px
+    left: 1750px
 }
 
 .secondnew {
@@ -72,12 +76,16 @@
 }
 
 .joinfree {
-    width: 120px;
+    width: 140px;
     font-size: 15px;
     border: transparent;
     color: white;
     background-color: #385BCE;
     border-radius: 20px;
+}
+
+.joinfree:hover {
+    opacity: 0.5;
 }
 
 #firstbook {
@@ -100,6 +108,15 @@
 
 .siximgtext {
     width: 95%;
+}
+
+.readmore {
+    color: white;
+    background-color: #385BCE;
+}
+
+.readmore:hover {
+    opacity: 0.5;
 }
 
 .textfirstlitimg {
@@ -230,6 +247,10 @@
     border: transparent;
 }
 
+.showbutton:hover {
+    opacity: 0.5;
+}
+
 .recentcoursesbutton button {
     color: silver;
     background-color: white;
@@ -246,19 +267,26 @@
 
 .state {
     padding: 10px;
-    width: 75px;
+    width: 85px;
     position: relative;
     bottom: 320px;
-    left: 270px;
+    left: 260px;
     text-align: center;
+}
+
+.doublerow {
+
+    position: relative;
+    bottom: 342px;
+
 }
 
 .stateprice {
     padding: 10px;
-    width: 75px;
+    width: 85px;
     position: relative;
     bottom: 345px;
-    left: 270px;
+    left: 260px;
     text-align: center;
 }
 
