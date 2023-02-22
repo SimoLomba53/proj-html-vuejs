@@ -3,6 +3,7 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
+            //ELEMENTI DEL HEADER
             headerelement: [
                 {
                     plan: "Courses",
@@ -35,6 +36,11 @@ createApp({
                 },
             ],
 
+            //LINGUA DEL SITO
+            currentlanguage: "English",
+
+
+            //ELEMENTI DEL FOOTER
             footerelement: [
                 {
                     location: "USA,California 20,First Avenue,California",
@@ -47,7 +53,7 @@ createApp({
                     seconddate: "--June 3,2015",
                 },
             ],
-
+            //ELEMENTI DELLE PAGES DEL FOOTER
             footerpagessection: [
                 {
                     item: "Blog",

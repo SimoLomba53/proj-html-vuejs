@@ -33,7 +33,19 @@
         <div class="conteiner-fluid firstnav">
             <!--FIRST NAVBAR-->
             <div>
-                <span>English</span>
+                <div class="dropdown">
+                    <button v-for="currentlanguage"
+                        class="btn btn-dark bg-white text-dark dropdown-toggle languagedropdown" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        {{ currentlanguage }}
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="d-flex flex-row gap-3">
                 <div v-for="plan in headerelement" class="d-flex flex-row gap-1">
@@ -526,6 +538,7 @@
             </div>
         </section>
     </main>
+    <!--FOOTER-->
     <footer>
         <div class="col-12">
             <div class="col-10 offset-1 d-flex flex-row p-5 gap-5 justify-content-center">

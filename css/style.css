@@ -18,8 +18,12 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    bottom: 45px;
+    bottom: 54px;
     left: 1750px
+}
+
+.languagedropdown {
+    border: transparent;
 }
 
 .secondnew {
@@ -29,7 +33,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    bottom: 65px;
+    bottom: 71px;
     left: 2080px
 }
 
@@ -278,6 +282,7 @@ body {
 
     position: relative;
     bottom: 342px;
+    text-align: center;
 
 }
 
