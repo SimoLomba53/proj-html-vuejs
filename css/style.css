@@ -68,6 +68,29 @@
     width: 100%;
 }
 
+.singlehovcard {
+    background-color: aliceblue;
+    width: 31%;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.singlehovcard:hover {
+    position: relative;
+    bottom: 20px;
+
+}
+
+.singlehovcard i {
+    font-size: 40px;
+
+}
+
 #softwareimg {
     width: 100%;
 }
@@ -81,7 +104,6 @@
     gap: 1.75rem;
 }
 
-.textfirstlitimg {}
 
 .right {
     margin-bottom: 38px;

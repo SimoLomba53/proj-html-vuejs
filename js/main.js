@@ -48,7 +48,7 @@ createApp({
                 },
             ],
 
-            pagessection: [
+            footerpagessection: [
                 {
                     item: "Blog",
                 },
